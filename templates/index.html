@@ -1,0 +1,15 @@
+{% extends "_tpl_main.html" %}
+
+{% block app_content %}
+    <h2>{{ title }}</h2>
+    <ul class="templates_list">
+        {% if templates %}
+            {% for tpl in templates %}
+                <li>{{ tpl.title }} <a class="del-link" href="/del_tpl/{{ tpl.id }}">&times;</a><br><code>{{ tpl.template }}</code></li>
+            {% endfor %}
+        {% else %}
+            Шаблонов нет
+        {% endif %}
+    </ul>
+    <a class="btn btn-primary" href="{{ url_for('add_tpl') }}">Добавить</a>
+{% endblock %}

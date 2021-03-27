@@ -1,0 +1,8 @@
+.content {
+    padding: .5rem 1rem;
+}
+
+.del-link {
+    color: red;
+    text-decoration: none;
+}

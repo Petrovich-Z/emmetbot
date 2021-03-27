@@ -1,0 +1,8 @@
+{% extends "_tpl_main.html" %}
+{% from 'bootstrap/form.html' import render_form %}
+
+{% block app_content %}
+    <h1>{{ title }}</h1>
+        <p>Выполните в боте команду /getpass для получения данных для входа</p>
+        {{ render_form(form) }}
+{% endblock %}
