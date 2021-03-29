@@ -1,3 +1,3 @@
 # emmetbot
-Учебный проект. Простой телеграм бота на python используя flask / SQLAlchemy / WTForm / pyTelegramBotAPI
+Учебный проект. Простой телеграм бот на python используя flask / SQLAlchemy / WTForm / pyTelegramBotAPI
 Преобразует css-подобную нотацию в HTML код (подробнее на https://emmet.io). Можно сохранять часто используемые выражения в шаблоны и управлять ими как из бота, так из web интерфейса.
